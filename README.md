@@ -297,21 +297,14 @@ At the bottom, we have the potential suspect, "c=240". I searched for any possib
 
 Sounds like the alphabet! He also mentioned the 3-digit numbers, let's take a look at that:
 
-```
-\033%-12345X@PJL JOB NAME="wrap in 'n00bz{}'"
-\033%-12345X@PJL JOB USERNAME="0xBlue"
-\033%-12345X@PJL JOB TIMESTAMP="05/31/2022"
-\033%-12345X@PJL JOB OSINFO="Blue0S"
-\033%-12345X@PJL ENTER LANGUAGE=LAVAFLOW
-\033E            RESET
-\033&l0S        DUPLEX: [off]
-\033&l0G
-\033&u146D        X RESOLUTION: [146]
-\033&l154X        COPIES: [154]
-\033&x157X        TRANSMIT ONCE COPIES: [157]
-\033&l0O        ORIENTATION: [port]
-\033r157U        NBIE: [5]
-\033g162W        BW/COLOR: [162]
-            fmt=2 np=1
-            BLACK:    X=1200, Y=600, unk=0, #=4(2)
-```
+Using the *strings* cmd, you can find the following numbers:
+> 146 154 157 157 162 151 163 154 141 166 141
+
+Using [Cyberchef](https://gchq.github.io/CyberChef/), we can input these numbers, and use *from octal* recipe, to find out the following text:
+> floorislava
+
+We can put this inside the curly braces in "n00bz{}", and done!
+
+# Reflection:
+The error statement at the bottom of the file threw me off. If I wasn't given the hints, then I don't think I would've progressed further. Additionally, it seems that lavaflow isn't a widely-known printer job language (since it is used in Konica Minolta printers). This made it hard to find a tool to convert the lavaflow file into something that was readable, but I luckily found the *lavadeocde* command on accident. Overall, it was a fun problem!
+
