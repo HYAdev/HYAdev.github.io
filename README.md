@@ -307,4 +307,3 @@ We can put this inside the curly braces in "n00bz{}", and done!
 
 # Reflection:
 The error statement at the bottom of the file threw me off. If I wasn't given the hints, then I don't think I would've progressed further. Additionally, it seems that lavaflow isn't a widely-known printer job language (since it is used in Konica Minolta printers). This made it hard to find a tool to convert the lavaflow file into something that was readable, but I luckily found the *lavadeocde* command on accident. Overall, it was a fun problem!
-
