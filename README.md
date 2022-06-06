@@ -3,7 +3,7 @@
 > [corrupt.lava](https://ctf.n00bzunit3d.xyz/attachments/Hot_Stuff/corrupt.lava)
 
 ## Solution:
-> We are given *corrupt.lava*. The file by itself cannot be opened, due to its file type of lava. Let's see what happens if we change the file to a known file type, such as *.txt*?
+We are given *corrupt.lava*. The file by itself cannot be opened, due to its file type of lava. Let's see what happens if we change the file to a known file type, such as *.txt*?
 
 ```
 %-12345X@PJL JOB NAME="wrap in 'n00bz{}'"
