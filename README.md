@@ -3,7 +3,7 @@
 > [corrupt.lava](https://ctf.n00bzunit3d.xyz/attachments/Hot_Stuff/corrupt.lava)
 
 ## Solution:
-<p>We are given *corrupt.lava*. The file by itself cannot be opened, due to its file type of lava. Let's see what happens if we change the file to a known file type, such as *.txt*?</p>
+> We are given *corrupt.lava*. The file by itself cannot be opened, due to its file type of lava. Let's see what happens if we change the file to a known file type, such as *.txt*?
 
 ```
 %-12345X@PJL JOB NAME="wrap in 'n00bz{}'"
@@ -289,7 +289,7 @@ ch=0xb ()
 Error: c=240 
 ```
 
-At the bottom, we have the potential suspect, "c=240". I searched for any possible hints to what "c=240" is. Could it mean 240 Celsius? Well, no. This is the part where I asked 0xBlue for a kind hint. He provide me with these hints:
+At the bottom, we have the potential suspect, "c=240". I searched for any possible hints to what "c=240" is. Could it mean 240 Celsius? Well, no. This is the part where I asked 0xBlue for a kind hint. He provided me with these hints:
 
 - The 3-digit numbers at the top are the key to finding the flag
 - You may realize that these range from roughly between 140 to 170.
