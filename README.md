@@ -289,7 +289,7 @@ ch=0xb ()
 Error: c=240 
 ```
 
-At the bottom, we have the potential suspect, "c=240". I searched for any possible hints to what "c=240" is. Could it mean 240 Celsius? Well, no. This is the part where I asked 0xBlue for a kind hint. He provided me with these hints:
+At the bottom, we have the potential suspect, "c=240". I searched for any possible hints to what "c=240" is. Could it mean 240 Celsius? Well, no. This is the part where I asked 0xBlue for hints. He answered back with these:
 
 - The 3-digit numbers at the top are the key to finding the flag
 - You may realize that these range from roughly between 140 to 170.
